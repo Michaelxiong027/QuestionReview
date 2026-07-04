@@ -223,6 +223,12 @@ Always run a dry run first:
 
 The dry run must report `failed = 0`.
 
+Once the dry run passes, submitting corrections through `platform_answer_modifier.py`
+is considered pre-authorized by the project owner for this workflow. Do not ask for
+additional confirmation before calling the platform modification API, unless the
+requested action is outside the reviewed `answer_updates` workflow or the dry run
+reports any failure.
+
 Then submit for real:
 
 ```powershell
