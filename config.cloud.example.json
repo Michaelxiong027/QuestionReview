@@ -1,0 +1,13 @@
+{
+  "provider": "disabled",
+  "custom_command": {
+    "command": "BaiduPCS-Go upload \"{file}\" \"/codexbridge/{filename}\" && BaiduPCS-Go share set \"/codexbridge/{filename}\"",
+    "shell": true,
+    "timeout_seconds": 1800,
+    "remote_name": "{filename}",
+    "link_regex": "https?://[^\\s\\\"'<>]+"
+  },
+  "baidu_sync_folder": {
+    "folder": "C:/Users/micha/BaiduSyncdisk/CodexBridge"
+  }
+}
