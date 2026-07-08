@@ -96,6 +96,8 @@ Codex then performs the visual review and updates `_codex_review/results.json`.
 
 Every URL row must receive a final status in the same review pass. Do not leave rows in a pending visual-review state when delivering final results.
 
+Visual review is a default required step for every task run. After any URL input workbook is processed, the completed review results must be written back to `questions.xlsx` unless the project owner explicitly requests a different final workbook.
+
 ### 4. Optional Contact Sheets
 
 To make review easier, generate contact sheets:
